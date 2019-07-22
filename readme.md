@@ -8,6 +8,8 @@ The code in this repo meant to be a reference point for anyone following along w
 
 ## To Start
 
+### Working on your local machine
+
 **Note** - One of the dependencies is Xcode. While installing, if you run into an error that says, `gyp: No Xcode or CLT version detected!` please do the following:
 1. Execute `xcode-select --install` in terminal.
 2. Delete the "node_modules" folder located within the "catch-of-the-day" folder.
@@ -18,6 +20,25 @@ The code in this repo meant to be a reference point for anyone following along w
 Each numbered folder in `stepped-solutions` contains the files for the beginning of each correspondingly numbered video, should you need them. So, if you need any code, pull the appropriate file into your `catch-of-the-day` folder.
 
 You are welcome to submit Pull Requests but I'd like to keep the code as similar as possible to the course content.
+
+### Working on Glitch
+
+[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/wesbos/React-For-Beginners-Starter-Files)
+
+👆Click this button!
+
+Doing so will import this GitHub repository into a new Glitch project. You're almost ready to go! There are just a couple of additional steps to get the project running.
+
+First, you'll have to open your project's console by clicking on the **Tools ^** button in the lower-left corner and choosing **Full Page Console &rarr;** from the menu that pops up. This will open the console in a new tab.
+
+Once you're at the console prompt (`$`): 
+
+1. Run `mv catch-of-the-day/* .` to move the catch-of-the-day folder contents to the project root (don't forget that `.` at the end of the command!).
+2. Run `rm -rf catch-of-the-day` to remove the (now empty) catch-of-the-day folder.
+3. Optionally, run `rm -rf stepped-solutions` to remove the stepped-solutions folder — you might prefer to keep it for reference, though!
+4. Run `refresh` to reload the editor.
+
+Once the `restarting...` message returns you to the prompt, close the console's browser tab. You're ready to proceed! Edit your files directly in the browser on Glitch, or access it in Visual Studio Code using the [Glitch extension](https://marketplace.visualstudio.com/items?itemName=glitch.glitch).
 
 ### Code Use
 
